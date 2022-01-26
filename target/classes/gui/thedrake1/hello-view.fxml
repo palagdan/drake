@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.thedrake1.MenuController">
+    <padding>
+        <Insets bottom="60.0" left="230.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="welcomeText" />
+
+    <AnchorPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <children>
+            <VBox alignment="CENTER" spacing="8.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                <children>
+                    <Button fx:id="twoPlayersGame" mnemonicParsing="false" onAction="#setTwoPlayers"  prefHeight="60.0" prefWidth="250.0" styleClass="menu-button" text="Hra dvou hráčů">
+                  <cursor>
+                     <Cursor fx:constant="DEFAULT" />
+                  </cursor>
+                  <effect>
+                     <Blend />
+                  </effect></Button>
+                    <Button fx:id="onlineGame" mnemonicParsing="false"   prefHeight="60.0" prefWidth="250.0" styleClass="menu-button" text="Hra po internetu" />
+                    <Button fx:id="againstComputer" mnemonicParsing="false" prefHeight="60.0" prefWidth="250.0" styleClass="menu-button" text="Hra proti počítači" />
+                    <Button fx:id="info" mnemonicParsing="false" prefHeight="60.0" prefWidth="250.0" styleClass="menu-button" text="Informace o hře" />
+                    <Button fx:id="quit" mnemonicParsing="false" onAction="#quit" prefHeight="60.0" prefWidth="250.0" styleClass="menu-button" text="Konec">
+                        <VBox.margin>
+                            <Insets top="10.0" />
+                        </VBox.margin>
+                    </Button>
+                </children>
+                <padding>
+                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                </padding>
+            </VBox>
+        </children>
+    </AnchorPane>
+
+
+
+
+</VBox>

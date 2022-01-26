@@ -1,0 +1,24 @@
+
+.root{
+    -fx-background-image: url("images/fantasy.jpg");
+
+}
+.menu-button{
+    -fx-display:inline-block;
+    -fx-padding:0.35em 1.2em;
+
+    -fx-margin:0 0.3em 0.3em 0;
+
+    -fx-box-sizing: border-box;
+    -fx-text-decoration:none;
+
+    -fx-font-weight:300;
+    -fx-color:#FFFFFF;
+    -fx-text-align:center;
+    -fx-transition: all 0.2s;
+    -fx-font-style: Italic;
+    -fx-font-size: 25;
+    -fx-text-fill: black;
+    -fx-border-radius: 0.99;
+}
+
